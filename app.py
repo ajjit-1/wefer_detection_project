@@ -37,6 +37,9 @@ def upload():
    
     try:
 
+
+
+
         if request.method == 'POST':
             # it is a object of prediction pipeline
             prediction_pipeline = PredictionPipeline(request)
